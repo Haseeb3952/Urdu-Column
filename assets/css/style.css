@@ -315,10 +315,18 @@ header {
   .offcanvas-body ul li .nav-item {
     border: none;
   }
+  .sub-column-picture {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .sub-column-picture {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 /* // Large devices (desktops, less than 1200px) */
