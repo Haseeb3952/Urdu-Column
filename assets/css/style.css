@@ -232,11 +232,6 @@ header {
   width: 100%;
 }
 
-.sub-column-picture {
-  height: 200px;
-  width: 235px;
-}
-
 .sub-column-picture h6 {
   color: #000;
 }
@@ -245,6 +240,41 @@ header {
   color: var(--red);
 }
 
+.blog-date a p {
+  font-size: 10px;
+  color: var(--gray);
+}
+.blog-date a p:hover {
+  color: var(--red);
+}
+
+.blog-text {
+  color: #000;
+}
+
+.blog-text:hover {
+  color: var(--red);
+}
+
+.special-topic {
+  color: var(--red);
+}
+
+.red {
+  color: var(--red);
+}
+
+.red:hover {
+  color: #c51818;
+}
+
+.picture-sub-title {
+  color: #000;
+}
+
+.picture-sub-title:hover {
+  color: var(--red);
+}
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 }
@@ -314,10 +344,6 @@ header {
 
   .offcanvas-body ul li .nav-item {
     border: none;
-  }
-  .sub-column-picture {
-    height: 100%;
-    width: 100%;
   }
 }
 
