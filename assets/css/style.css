@@ -275,6 +275,15 @@ header {
 .picture-sub-title:hover {
   color: var(--red);
 }
+
+.ik-date {
+  font-size: 10px;
+  color: #000;
+}
+
+.ik-date:hover {
+  color: var(--red);
+}
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 }
