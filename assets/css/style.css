@@ -10,6 +10,8 @@ body {
   --gray: #333;
 
   --bg-red: #de2c2c;
+
+  --bg-dark: #ededed;
 }
 
 a {
@@ -173,13 +175,6 @@ header {
   background-color: #ededed !important;
 }
 
-/* .writer-picture {
-  display: grid;
-  grid-column: 100px auto;
-  height: 80px;
-  width: 120px;
-} */
-
 .writer-picture img {
   height: 80px;
   width: 120px;
@@ -191,6 +186,62 @@ header {
 }
 
 .column-heading h6 a:hover {
+  color: var(--red);
+}
+
+.main-column-heading {
+  background-color: #000;
+  transition: 0.5s;
+}
+
+.news_section:hover .news_section_title .main-column-heading {
+  background: var(--bg-red);
+}
+
+.read-more a {
+  color: var(--red);
+}
+
+.read-more a:hover {
+  color: var(--red);
+}
+
+.column-date {
+  bottom: 0%;
+}
+
+.most-readable {
+  background-color: #ededed;
+}
+
+.most-readable-columns ul li {
+  list-style-type: none;
+}
+
+.most-readable-columns ul li a {
+  color: #000;
+  font-weight: 600;
+}
+
+.most-readable-columns ul li a:hover {
+  color: var(--red);
+}
+
+.line {
+  color: #ccc;
+  width: 100%;
+}
+
+.sub-column-picture {
+  height: 200px;
+  width: 235px;
+}
+
+.sub-column-picture h6 {
+  color: #000;
+}
+
+.sub-column-picture h6:hover {
   color: var(--red);
 }
 
@@ -210,6 +261,12 @@ header {
 
   .logo img {
     display: none;
+  }
+
+  .nav-link {
+    font-weight: 700;
+    border: none !important;
+    padding: 15px;
   }
 
   .mobile-logo {
@@ -233,6 +290,7 @@ header {
   .imp-news {
     width: auto;
   }
+
   .off_canvas-padding .row > * {
     flex-shrink: 0;
     width: 100%;
@@ -241,11 +299,21 @@ header {
     padding-left: 0;
     margin-top: var(--bs-gutter-y);
   }
+
   .navbar-desktop {
     display: none;
   }
+
   .off_canvas-padding {
     display: block;
+  }
+
+  .offcanvas-body ul li a {
+    color: #000;
+  }
+
+  .offcanvas-body ul li .nav-item {
+    border: none;
   }
 }
 
