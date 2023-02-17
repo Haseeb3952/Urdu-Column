@@ -43,12 +43,12 @@
               </a>
             </div>
             <div class="yt px-1">
-              <a href="https:/youtube.com" target="_blank">
+              <a href="https://www.youtube.com/@TINewsofficial" target="_blank">
                 <i class="uil uil-youtube"></i>
               </a>
             </div>
             <div class="wa px-1">
-              <a href="https:/whatsapp.com" target="_blank">
+              <a href="https:/wa.me/3004923062" target="_blank">
                 <i class="uil uil-whatsapp"></i>
               </a>
             </div>
@@ -88,11 +88,19 @@
         <div class="row">
           <nav class="navbar navbar-expand-lg navbar-light p-0 shadow">
             <div class="container-fluid">
-              <a href="#">
-                <div class="search-bar">
-                  <i class="uil uil-search fs-4"></i>
-                </div>
-              </a>
+
+              <!-- Search Bar Toggle -->
+              
+              <button onclick="myFunction2()" class="border-0 p-0">
+                <a href="#">
+                  <div class="search-bar">
+                    <i class="uil uil-search fs-4"></i>
+                  </div>
+                </a>
+              </button>
+
+           
+
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -192,7 +200,16 @@
               <img src="/assets/images/mobile-logo.png" class="img-fluid" alt="">
             </div>
             <div class="search_box_off_canvas">
-              <i class="fa fa-search text-white fs-2" aria-hidden="true"></i>
+
+              <!-- Search Bar Toggle -->
+              
+              <button onclick="myFunction2()" class="border-0 p-0">
+                <a href="#">
+                  <div class="search-bar">
+                    <i class="uil uil-search fs-4"></i>
+                  </div>
+                </a>
+              </button>
             </div>
           </div>
 
@@ -286,7 +303,43 @@
     </div>
   </section>
 
+     <!------------------------------------------- Search Toggle ----------------------------------->
+
+
+  <div id="myDIV">
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-12 col-md-2 order-md-1 order-2">
+          <div class="d-flex justify-content-md-auto justify-content-end">
+            <button class="btn-search text-white mt-md-0 mt-2">
+           تلاش کریں
+            </button>
+          </div>
+        </div>
+        <div class="col-12 col-md-10 order-md-2 order-1">
+          <div class="search-placeholder ">
+            <input type="text"  placeholder="…جو تلاش کرنا چاہ رہے ہیں یہاں لکھیں " class="px-5 py-2 text-end">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function myFunction2() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+
   <!---------------------------------------- Navbar Section Ended ------------------------------------------>
+
+              
+   
 
   <!-------------------------------------- Marquee Section Started ----------------------------------------->
 
@@ -1268,35 +1321,35 @@
       <div class="container">
         <div class="row mt-4">
           <div class="social-media-links d-flex gap-md-3 gap-1 justify-content-center mx-md-0 mx-auto">
-            <a href="#">
+            <a href="https:/facebook.com" target="_blank">
               <div class="facebook rounded-circle">
                 <i class="uil uil-facebook-f fs-4"></i>
               </div>
             </a>
-            <a href="#">
+            <a href="https:/twitter.com" target="_blank">
               <div class="facebook rounded-circle">
                 <i class="uil uil-twitter-alt fs-4"></i>
               </div>
             </a>
-            <a href="#">
+            <a href="https://www.youtube.com/@TINewsofficial" target="_blank">
               <div class="facebook rounded-circle">
                 <i class="uil uil-youtube fs-4"></i>
               </div>
             </a>
-            <a href="#">
+            <a href="https:/wa.me/3004923062" target="_blank">
               <div class="facebook rounded-circle">
                 <i class="uil uil-whatsapp fs-4"></i>
               </div>
             </a>
-            <a href="#">
+            <a href="https:/instagram.com" target="_blank">
               <div class="facebook rounded-circle">
                 <i class="uil uil-instagram fs-4"></i>
               </div>
             </a>
           </div>
 
-          <div class="copyrights mt-5 copyrights-links">
-            <ul class="d-flex bg-dark py-3 
+          <div class="copyrights mt-5">
+            <ul class="d-flex   py-md-3 py-2 
             justify-content-center">
               <li>
                 <a href="#">
@@ -1327,9 +1380,9 @@
           </div>
 
           <div class="footer-content ">
-            <p class="text-white text-center py-3">Copyright © 2016-2020, UrduNews all rights reserved. Theme Designed
+            <p class="text-white text-center py-3">Copyright © 2023, UrduNews all rights reserved. Made
               by <i class="uil uil-heart"></i> <a href="https://www.instagram.com/username_haseeb/" target="_blank"
-                class="text-white">Abdul Haseeb</a> </p>
+                class="red">Abdul Haseeb</a> </p>
           </div>
         </div>
       </div>
