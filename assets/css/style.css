@@ -244,6 +244,7 @@ header {
   font-size: 10px;
   color: var(--gray);
 }
+
 .blog-date a p:hover {
   color: var(--red);
 }
@@ -284,6 +285,37 @@ header {
 .ik-date:hover {
   color: var(--red);
 }
+
+.black {
+  color: #000;
+}
+
+.black:hover {
+  color: var(--red);
+}
+
+.white {
+  color: var(--white);
+}
+
+.white:hover {
+  color: var(--red);
+}
+
+.video img {
+  object-fit: cover;
+}
+
+.video-icon {
+  bottom: 0;
+  right: 0;
+}
+
+.education {
+  bottom: 0%;
+  right: 0;
+}
+
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 }
