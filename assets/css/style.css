@@ -316,6 +316,46 @@ header {
   right: 0;
 }
 
+footer {
+  background-image: url("/assets/images/footer_bg.jpg");
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+}
+
+.facebook {
+  height: 70px;
+  width: 70px;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border: 5px solid #000;
+}
+
+.facebook i {
+  color: #cccccc;
+}
+
+.facebook:hover {
+  transform: scale(1.2);
+  background-color: #000;
+  border: 5px solid #363333;
+}
+
+.social-media-links {
+  margin-top: -30px;
+}
+
+.copyrights ul li a {
+  padding: 0px 10px;
+  color: #fff;
+}
+.copyrights ul li a:hover {
+  color: #ccc;
+}
+
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 }
@@ -385,6 +425,16 @@ header {
 
   .offcanvas-body ul li .nav-item {
     border: none;
+  }
+  .social-media-links {
+    width: 80%;
+  }
+  .facebook:hover {
+    transform: scale(1.1);
+  }
+  .facebook {
+    height: 60px;
+    width: 60px;
   }
 }
 
