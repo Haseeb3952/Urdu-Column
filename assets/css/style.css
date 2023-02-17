@@ -145,9 +145,6 @@ header {
   border: none;
 }
 
-.search-placeholder ::placeholder {
-}
-
 .search-placeholder input {
   width: 100% !important;
 
@@ -332,7 +329,7 @@ header {
 
 footer {
   background-image: url("/assets/images/footer_bg.jpg");
-  height: 250px;
+  height: 270px;
   background-size: cover;
   background-position: center;
 }
@@ -361,18 +358,18 @@ footer {
 .social-media-links {
   margin-top: -30px;
 }
-.copyrights ul {
+.copyrights {
   background-color: #222222;
 }
-.copyrights ul {
+.copyrights {
   border: 7px solid #1a1515;
 }
-.copyrights ul li a {
+.copyrights a {
   padding: 0px 10px;
   color: #fff;
 }
 
-.copyrights ul li a:hover {
+.copyrights a:hover {
   color: #ccc;
 }
 
@@ -460,13 +457,8 @@ footer {
     width: 60px;
   }
 
-  .copyrights ul li a {
-    font-size: 10px;
-  }
-
-  .copyrights ul li a {
-    display: flex;
-    flex-direction: column;
+  .copyrights a {
+    font-size: 11px;
   }
 }
 
