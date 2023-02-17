@@ -1,6 +1,7 @@
 body {
   margin: 0%;
   padding: 0%;
+  font-family: "urdu-naskh-asiatype";
 }
 
 :root {
@@ -14,8 +15,15 @@ body {
   --bg-dark: #ededed;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: 900 !important;
+}
+
 a {
   text-decoration: none;
+  font-weight: 900 !important;
 }
 
 header {
